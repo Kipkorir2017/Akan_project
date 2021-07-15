@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <!-- header section -->
-        <h2>AKan Name Generator</h2>
+        <h2>Akan Name Generator</h2>
         <hr>
         <h3>Get your Akan Name and the Day you were Born</h3>
         <p>The Akan people of Ghana frequently name their children 
@@ -24,22 +24,29 @@
             names have considerably more variety and can refer to their birth order, 
             twin status, or an ancestor's middle name.</p>
             <!-- form section -->
-            <div class="container">
-                <form class="" action=".php" method="post">
-                    <label>Century:</label><br>
-                    <input type="number"  id="century"><br>
-                    <label>Year:</label> Year:<br>
-                    <input type="number"  id="year"><br>
-                    <label>Month:</label><br>
-                    <input type="number"  id="month"><br>
-                    <label>Day:</label><br>
-                    <input type="number" id="day"><br>
-                    <label>Gender:</label><br>
-                    <input type="radio" name="gender" id="male"><label>Male</label> <br>
-                    <input type="radio" name="gender" id="female"><label>Female</label><br>
-                    <input type="submit" name="submit" onclick="" value="submit">
-                  </form>
-         </form> 
+        <!-- <div class="container"> -->
+                <div class="container px-4">
+                    <div class="row gx-5 row2">
+                      <div class="col">
+                       <div class="p-3 border">  <h4>Feed in Your Details</h4>
+                        <form class="" action=".php" method="post" >
+                            <label>Century:</label><br>
+                                <input type="number"  id="century"><br>
+                            <label>Year:</label><br>
+                                <input type="number"  id="year"><br>
+                            <label>Month:</label><br>
+                                <input type="number"  id="month"><br>
+                            <label>Day:</label><br>
+                                <input type="number" id="day"><br>
+                            <label>Gender:</label><br>
+                                <input type="radio" name="gender" id="male"><label>Male</label> <br>
+                                <input type="radio" name="gender" id="female"><label>Female</label><br>
+                                <input type="submit" name="submit" onclick="" value="submit">
+                          </form></div>
+                      </div>
+                      <div class="col">
+                        <div class="p-3 border" style="opacity: 0.2;"><img src="/assets/images/flag.jpeg" alt="Ghana flag" > </div>
+                      </div>
         </div>  
     </div>
     <script src="/assets/javaScript/akan.js"></script>
