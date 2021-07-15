@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/index.css">
     <title>Document</title>
@@ -11,7 +14,7 @@
 <body>
     <div class="container">
         <!-- header section -->
-        <h1>AKan Name Generator</h1>
+        <h2>AKan Name Generator</h2>
         <hr>
         <h3>Get your Akan Name and the Day you were Born</h3>
         <p>The Akan people of Ghana frequently name their children 
@@ -20,9 +23,24 @@
              meanings concerning the soul and character of the person. Middle 
             names have considerably more variety and can refer to their birth order, 
             twin status, or an ancestor's middle name.</p>
-         <form action="" method="POST">
-             
-         </form>   
+            <!-- form section -->
+            <div class="container">
+                <form class="" action=".php" method="post">
+                    <label>Century:</label><br>
+                    <input type="number"  id="century"><br>
+                    <label>Year:</label> Year:<br>
+                    <input type="number"  id="year"><br>
+                    <label>Month:</label><br>
+                    <input type="number"  id="month"><br>
+                    <label>Day:</label><br>
+                    <input type="number" id="day"><br>
+                    <label>Gender:</label><br>
+                    <input type="radio" name="gender" id="male"><label>Male</label> <br>
+                    <input type="radio" name="gender" id="female"><label>Female</label><br>
+                    <input type="submit" name="submit" onclick="" value="submit">
+                  </form>
+         </form> 
+        </div>  
     </div>
     <script src="/assets/javaScript/akan.js"></script>
 </body>
