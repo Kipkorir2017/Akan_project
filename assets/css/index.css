@@ -1,5 +1,6 @@
-html{
+*{
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
 }
 .container{
     background-color:rgb(34, 20, 46);
@@ -18,7 +19,7 @@ img{
     width: 100%;
 }
 .footer{
-    padding-top: 10px;
+    padding-top: 20px;
     height: 50px;
     color: black;
 }
