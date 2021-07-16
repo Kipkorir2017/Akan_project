@@ -10,9 +10,33 @@ function myFunction(){
         // declaring variables for the names
     var male =["Kwasi","Kwadwo","Kwabena","Kwaku","yaw","Kofi","Kwame"];
     var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+    var gender=["male","female"]
 
     // using flow control i.e if and else statements
-    if ()
+    if (day==0 && gender=="male"){
+        alert(male[0])
+
+    }
+    if (day==1 && gender=="male"){
+        alert(male[1])
+
+    }
+    if (day==3 && gender=="male"){
+        alert(male[3])
+
+    }
+    if (day==4 && gender=="male"){
+        alert(male[4])
+
+    }
+    if (day==5 && gender=="male"){
+        alert(male[5])
+
+    }
+    if (day==6 && gender=="male"){
+        alert(male[6])
+
+    }
 
 
 }
