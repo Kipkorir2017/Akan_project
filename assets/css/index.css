@@ -5,7 +5,7 @@
 .container{
     background-color:rgb(34, 20, 46);
     border:gray;
-    box-shadow:2px 2px 2px 2px black;
+    box-shadow:1px 1px 1px 1px black;
     color: white
 
 }
@@ -19,9 +19,13 @@ img{
     width: 100%;
 }
 .footer{
-    padding-top: 20px;
-    height: 50px;
-    color: black;
+    padding-top: 40px;
+    height: 50%;
+    color:lightcyan;
+    background-color:rgb(red, green, blue);
+}
+.footer1{
+    text-align: center;
 }
 @media screen and (max-width:700px){
    img{
