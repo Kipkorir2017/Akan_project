@@ -13,14 +13,11 @@ function akan(){
 
         // declaring variables for the gender and names 
    
-   
-    
-   
-   
     var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]
     var male =["Kwasi","Kwadwo","Kwabena","Kwaku","yaw","Kofi","Kwame"];
     var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-    
+
+    // validating details
     if (CC.length<2 || CC.length>2 || CC>20 ){
         alert("invalid century");
         return false;
@@ -48,6 +45,7 @@ function akan(){
     var genderMale = document.getElementById("gents").checked;
     var genderFemale=document.getElementById("ladies").checked;
     
+    // validating male inputs
      if(day ==0 && genderMale===true){
         alert("Name: "+male[0]+", born on :"+days[0])
         return false
@@ -110,4 +108,7 @@ function akan(){
         alert("You did not select your Gender")
     }
     
+}
+function click(){
+    document.getElementById("reset").reset();
 }
