@@ -1,4 +1,4 @@
-# Akan Name GeNerator
+# Akan Name Generator
 #### Fill the Form To know your Akan Name, {2021}
 #### By **Benjamin Kipkorir**
 ## Description
