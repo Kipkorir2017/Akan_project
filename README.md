@@ -1,5 +1,6 @@
 # Akan Name Generator
 #### Fill the Form To know your Akan Name, {2021}
+# Author
 #### By **Benjamin Kipkorir**
 ## Description
 This Web application will allow user to enter their DoB details and they will get Akan name which is mostly used in Ghana to name children based on the days they were born.
@@ -8,7 +9,20 @@ This Web application will allow user to enter their DoB details and they will ge
 * browser
 * pc
 * internet
-
+## Behaviour Driven Development
+|Behaviour|Input    |OutPut     | 
+|---------|---------|-----------|
+|Day<0    |0        |correct day      
+|---------|---------|-----------|
+|Day      |
+|---------|---------|-----------|
+|Month    |0
+|---------|---------|-----------|
+|Month    |
+|---------|---------|-----------|
+|Gender
+|---------|---------|-----------|
+|Gender
 ## Known Bugs
 There are no known bugs at the moment
 ## Technologies Used
