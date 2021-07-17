@@ -87,19 +87,19 @@ function akan(){
         return false;
     }
     else if(day==2 && genderFemale==true){
-        alert("Name: "+female[2]+"born on: "+days[2])
+        alert("Name: "+female[2]+" born on: "+days[2])
         return false;
     }
     else if(day==3 && genderFemale==true){
-        alert("Name: "+female[3]+"born on: "+days[3])
+        alert("Name: "+female[3]+" born on: "+days[3])
         return false;
     }
     else if(day==4 && genderFemale==true){
-        alert("Name: "+female[4]+"born on: "+days[4])
+        alert("Name: "+female[4]+" born on: "+days[4])
         return false;
     }
     else if(day==5 && genderFemale==true){
-        alert("Name: "+female[5]+"born on: "+days[5])
+        alert("Name: "+female[5]+" born on: "+days[5])
         return false;
     }
     else if(day==6 && genderFemale==true){
