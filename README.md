@@ -10,19 +10,18 @@ This Web application will allow user to enter their DoB details and they will ge
 * pc
 * internet
 ## Behaviour Driven Development
-|Behaviour|Input    |OutPut     | 
-|---------|---------|-----------|
-|Day<0    |0        |correct day      
-|---------|---------|-----------|
-|Day      |
-|---------|---------|-----------|
-|Month    |0
-|---------|---------|-----------|
-|Month    |
-|---------|---------|-----------|
-|Gender
-|---------|---------|-----------|
-|Gender
+|Behaviour  |Input      |Output     |    
+|-----------|-----------|-----------|          
+
+|           |           |           |
+                                
+|           |           |           |
+                               
+|           |           |           |
+
+                                 
+|           |           |           |
+
 ## Known Bugs
 There are no known bugs at the moment
 ## Technologies Used
