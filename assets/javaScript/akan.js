@@ -21,7 +21,7 @@ function akan(){
     var male =["Kwasi","Kwadwo","Kwabena","Kwaku","yaw","Kofi","Kwame"];
     var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
-    if (CC.length<2 || CC.length>2){
+    if (CC.length<2 || CC.length>2 || CC>20 ){
         alert("invalid century");
         return false;
     }
