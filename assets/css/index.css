@@ -15,9 +15,21 @@ h2{
 .form{
     display: flex;
 }
-img{
-    width: 100%;
+#check{
+    color: #ffffff;
+    font-weight: 800;
+    
+    
 }
+.image{
+    background-image: url('/assets/images/flag.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    opacity: .2;
+}
+
 .footer{
     padding-top: 40px;
     height: 50%;
@@ -28,7 +40,7 @@ img{
     text-align: center;
 }
 @media screen and (max-width:700px){
-   img{
+   .image{
         width: 100%;
     }
     .row2{
