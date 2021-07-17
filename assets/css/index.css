@@ -22,7 +22,7 @@ h2{
     
 }
 .image{
-    background-image: url('/assets/images/flag.jpeg');
+    background: url('/assets/images/flag.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
