@@ -49,61 +49,61 @@ function akan(){
     var genderFemale=document.getElementById("ladies").checked;
     
      if(day ==0 && genderMale===true){
-        alert("Name: "+male[0])
+        alert("Name: "+male[0]+", born on :"+days[0])
         return false
     }
     else if(day==1 && genderMale===true){
-        alert("Name: "+male[1]+"born on :"+days[1])
+        alert("Name: "+male[1]+", born on :"+days[1])
         return false;
     }
     else if(day ==2 && genderMale===true){
-        alert("Name: "+male[2]+"born on: "+days[1])
+        alert("Name: "+male[2]+", born on: "+days[1])
         return false;
     }
     else if(day ==3 && genderMale===true){
-        alert("Name: "+male[3]+"born on: "+days[1])
+        alert("Name: "+male[3]+", born on: "+days[1])
         return false;
     }
     else if(day ==4 && genderMale===true){
-        alert("Name: "+male[4]+"born on: "+days[4])
+        alert("Name: "+male[4]+", born on: "+days[4])
         return false;
     }
     else if(day ==5 && genderMale==true){
-        alert("Name: "+male[5]+"born on: "+days[5])
+        alert("Name: "+male[5]+", born on: "+days[5])
         return false;
     }
     else if(day==6 && genderMale==true){
-        alert("Name: "+male[6]+"born on: "+days[6])
+        alert("Name: "+male[6]+", born on: "+days[6])
         return false;
     }
 
     // validating females inputs
     else if(day==0 && genderFemale==true){
-        alert("Name: "+female[0]+"born on: "+days[0])
+        alert("Name: "+female[0]+", born on: "+days[0])
         return false;
     }
     else if(day==1 && genderFemale==true){
-        alert("Name: "+female[1]+"born on: "+days[1])
+        alert("Name: "+female[1]+", born on: "+days[1])
         return false;
     }
     else if(day==2 && genderFemale==true){
-        alert("Name: "+female[2]+" born on: "+days[2])
+        alert("Name: "+female[2]+", born on: "+days[2])
         return false;
     }
     else if(day==3 && genderFemale==true){
-        alert("Name: "+female[3]+" born on: "+days[3])
+        alert("Name: "+female[3]+", born on: "+days[3])
         return false;
     }
     else if(day==4 && genderFemale==true){
-        alert("Name: "+female[4]+" born on: "+days[4])
+        alert("Name: "+female[4]+", born on: "+days[4])
         return false;
     }
     else if(day==5 && genderFemale==true){
-        alert("Name: "+female[5]+" born on: "+days[5])
+        alert("Name: "+female[5]+", born on: "+days[5])
         return false;
     }
     else if(day==6 && genderFemale==true){
-        alert("Name: "+female[6]+"born on: "+days[6])
+        alert("Name: "+female[6]+", born on: "+days[6])
         return false;
     }
     else{
