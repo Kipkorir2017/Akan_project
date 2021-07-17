@@ -4,11 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="/assets/javaScript/akan.js"></script>
+    <div class="container">
+        <!-- header section -->
+        <h2>Akan Name Generator</h2>
+        <hr>
+        <h3>Get your Akan Name and the Day you were Born</h3>
+        <p>The Akan people of Ghana frequently name their children 
+            after the day of the week they were born and the order 
+            in which they were born. These "day names" have further
+             meanings concerning the soul and character of the person. Middle 
+            names have considerably more variety and can refer to their birth order, 
+            twin status, or an ancestor's middle name.
+        </p>
+            <!-- form section -->
+        <!-- <div class="container"> -->
+        <div class="container px-4">
+                    <div class="row gx-5 row2">
+                      <div class="col">
+                       <div class="p-3 border">  
+                            <h4>Feed in Your Details</h4>
+                            <hr>
+                            <form id="Form" action="" >
+                                <label>Century:</label><br>
+                                <input type="number"  id="century" placeholder="e.g 19"><br>
+                                <label>Year:</label><br>
+                                <input type="number"  id="year" placeholder="e.g 21"><br>
+                                <label>Month:</label><br>
+                                <input type="number"  id="month" placeholder="MM"><br>
+                                <label>Day:</label><br>
+                                <input type="number" id="day" placeholder="DD"><br>
+                                <label>Gender:</label><br>
+                                <input type="radio" name="gender" id="gents" value="male">
+                                <label>Male</label> <br>
+                                <input type="radio" name="gender" id="ladies" value="female">
+                                <label>Female</label><br>
+                                <input type="submit" name="submit"  onclick="akan()">
+                            </form>
+                        </div>
+                      </div>
+                      <!--background image -->
+                    <div class="col image">
+                        <h5 id="check">Check Your Akan Name:</h5>
+                        <input type="reset" value="Reset" >
+                    </div>
+            </div> 
+        </div>
+        <!-- footer section -->
+        <div class="footer">
+            <footer class="footer1">
+                <div>
+                    &copy; 2021 Copyright: By Benjamin Kipkorir
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/javaScript/akan.js"></script>
 </body>
 </html>

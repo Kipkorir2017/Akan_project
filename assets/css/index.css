@@ -1,0 +1,49 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+}
+.container{
+    background-color:rgb(34, 20, 46);
+    border:gray;
+    box-shadow:1px 1px 1px 1px black;
+    color: white
+
+}
+h2{
+    text-align: center;
+}
+.form{
+    display: flex;
+}
+#check{
+    color: #ffffff;
+    font-weight: 800;
+    
+    
+}
+.image{
+    background-image: url('./assets/images/flag.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    opacity: .2;
+}
+
+.footer{
+    padding-top: 40px;
+    height: 50%;
+    color:lightcyan;
+    background-color:rgb(red, green, blue);
+}
+.footer1{
+    text-align: center;
+}
+@media screen and (max-width:700px){
+   .image{
+        width: 100%;
+    }
+    .row2{
+        display: block;
+    }
+}
