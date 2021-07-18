@@ -22,13 +22,14 @@ h2{
     
 }
 .image{
-    background-image: url(/assets/images/flag.jpeg);
+    background-image: url(/assets/images/flag.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     color: rgb(255, 255, 255);
     opacity: .2;
 }
+
 
 .footer{
     padding-top: 40px;
