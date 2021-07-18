@@ -14,9 +14,6 @@ function akan(){
     // declaring variable for the formulae to calculate day
     var day=parseInt((((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD )%7);
 
-    // var day =new Date(+CC+ ","+YY+","+MM+","+DD);
-    // var dayOfTheWeek = day.getDay();
-
         // declaring variables for the gender and names 
    
     var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]
@@ -67,7 +64,6 @@ function akan(){
     // validating male inputs
      if(day ==0 && genderMale===true){
         alert("Name: "+male[0]+", born on :"+days[0])
-        return false;
        
     }
     else if(day==1 && genderMale===true){
@@ -79,7 +75,7 @@ function akan(){
        
     }
     else if(day ==3 && genderMale===true){
-        alert("Name: "+male[3]+", born on: "+days[1])
+        alert("Name: "+male[3]+ ",born on: "+days[1])
       
     }
     else if(day ==4 && genderMale===true){
@@ -125,7 +121,7 @@ function akan(){
        
     }
     else{
-        alert("You did not select your Gender")
+        alert("Check your gender")
     }
     
 }
