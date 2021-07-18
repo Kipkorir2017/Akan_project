@@ -16,7 +16,7 @@ function akan(){
     var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]
     var male =["Kwasi","Kwadwo","Kwabena","Kwaku","yaw","Kofi","Kwame"];
     var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-
+    
     // validating details
     if (CC.length<2 || CC.length>2 || CC>20 ){
         alert("invalid century");
@@ -37,10 +37,9 @@ function akan(){
         alert("Please enter a valid date!");
     }
     else if(MM==2 && DD>=30){
-        alert("please Enter a Valid date, should not be more than 29th")
+        alert("please Enter a Valid date, should not be more than 29th");
     }
     
-
    // validating day and gender
     var genderMale = document.getElementById("gents").checked;
     var genderFemale=document.getElementById("ladies").checked;
