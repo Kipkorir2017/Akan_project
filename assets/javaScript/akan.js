@@ -125,6 +125,3 @@ function akan(){
     }
     
 }
-function click(){
-    document.getElementById("reset").reset();
-}
