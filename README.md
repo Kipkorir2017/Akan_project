@@ -12,17 +12,11 @@ This Web application will allow user to enter their DoB details and they will ge
 ## Behaviour Driven Development
 |Behaviour  |Input           |Output         |    
 |-----------|----------------|---------------|          
-
-|Day        | <=0 or >31      |Invalid Day    |
-                                
-|Month      |<=0 or >12      |Invalid Month  |
-                               
+|Day        | <=0 or >31      |Invalid Day    |                               
+|Month      |<=0 or >12      |Invalid Month  |                             
 |Gender     |genderMale==true| male Akan name|
-
-|Gender     |genderfemale==true|female Akan name|
-                                
+|Gender     |genderfemale==true|female Akan name|                                
 |Century    | >20 or CC.length>2|Invalid Century|
-
 |year       |YY.length>2 or YY>21|Invalid year|
 
 ## Known Bugs
